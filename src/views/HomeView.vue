@@ -44,7 +44,7 @@ import gsap from 'gsap'
             <h2>Hey there, This is Deji Ajani</h2>
 
             <h3>FRONTEND DEVELOPER</h3>
-            <p class="text-white">I am passionate about building excellent software ,world-class app and pixel perfect code.</p>
+            <p class="text-white">I am passionate about building excellent software, world-class app and pixel perfect code.</p>
            
 
             <button><a download href="https://files.fm/f/j5qxxzwy6">Download Resume</a></button>
