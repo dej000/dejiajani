@@ -77,7 +77,7 @@ import gsap from 'gsap'
       }
 
    .container {
-    padding: 52px 100px;
+    padding: 52px 10px;
 }
 
       
@@ -138,7 +138,7 @@ import gsap from 'gsap'
       }
 
 
-      @media (max-width :670px){
+      @media (max-width :1029px){
         .container[data-v-b4e148ca] {
           padding: 52px 30px;
       }

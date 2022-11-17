@@ -94,7 +94,7 @@ export default {
 
 <style scoped>
     .container {
-        padding: 52px 100px;
+        padding: 52px 50px;
     }
     .contact{
       background-color: black;
@@ -159,7 +159,7 @@ export default {
     }
     
     .contact-form{
-      
+      width: 100%;
      
     }
     

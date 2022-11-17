@@ -1,7 +1,9 @@
 <template>
     <header class="header" :class="{'scrolled-nav':scrolledNav}"> 
         
-       
+       <div>
+        <h2 class="text-white m-0">DEJI</h2>
+       </div>
        
         <nav class="navbar">
             <ul v-show="!mobile" class="navigation">
@@ -199,7 +201,7 @@
         display: flex;
         align-items: center;
         flex: 1;
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .navigation li{
