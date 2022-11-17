@@ -138,10 +138,17 @@ import gsap from 'gsap'
       }
 
 
-      @media (max-width :450px){
+      @media (max-width :670px){
         .container[data-v-b4e148ca] {
           padding: 52px 30px;
       }
+      .hero h3[data-v-b4e148ca] {
+        margin: 20px 0;
+        color: grey;
+        font-size: 18px;
+        z-index: 2;
+        text-align: center;
+    }
       }
     
 </style>

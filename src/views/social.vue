@@ -159,7 +159,7 @@ export default {
     }
     
     .contact-form{
-      max-width: 700px;
+      
      
     }
     
