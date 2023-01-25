@@ -2,7 +2,8 @@
     <header class="header" :class="{'scrolled-nav':scrolledNav}"> 
         
        <div>
-        <h2 class="text-white m-0">DEJI</h2>
+        
+        <a class="text-white fs-3 text-decoration-none m-0" href="">DEJI</a>
        </div>
        
         <nav class="navbar">

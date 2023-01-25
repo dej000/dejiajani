@@ -7,11 +7,60 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <h2 class="section-heading text-uppercase p-3 mb-5 text-white">Portfolio</h2>
+              <h2 class="section-heading text-uppercase p-3 mb-2 text-white">Portfolio</h2>
               <h4 class="section-heading text-uppercase p-3 mb-5 text-white">Some of my works</h4>
             </div>
           </div>
           <div class="row">
+
+            <div class="col-md-6 col-sm-6 portfolio-item box"
+            v-motion
+            :initial="{opacity: 0, y: 100}"
+            :visibleOnce="{ opacity: 1, y: 0}"
+            >
+                <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://vuetest-jet.vercel.app/
+                " target="_blank" >
+                    
+                    <img class="img-fluid rounded p-3 " :src="discripto" alt="">
+      
+                </a>
+                <div class="portfolio-caption  text-white  ">
+                    <p class="text-muted">Transcription Website</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 portfolio-item box"
+            v-motion
+            :initial="{opacity: 0, y: 100}"
+            :visibleOnce="{ opacity: 1, y: 0}"
+            >
+                <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://heed.vercel.app/
+                " target="_blank" >
+                    
+                    <img class="img-fluid rounded p-3 " :src="heed" alt="">
+      
+                </a>
+                <div class="portfolio-caption  text-white  ">
+                    <p class="text-muted">Transcription Website</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 portfolio-item box"
+            v-motion
+            :initial="{opacity: 0, y: 100}"
+            :visibleOnce="{ opacity: 1, y: 0}"
+            >
+                <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://prateve.vercel.app/
+                " target="_blank" >
+                    
+                    <img class="img-fluid rounded p-3 " src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1668084464/Vite-App_rfdtfa.png" alt="">
+      
+                </a>
+                <div class="portfolio-caption  text-white  ">
+                    <p class="text-muted">Loan Website</p>
+                </div>
+            </div>
+
             
               <div class="col-md-6 col-sm-6 portfolio-item box  "
              
@@ -25,8 +74,7 @@
         
                   </a>
                   <div class="portfolio-caption ">
-                      <h4 class="text-white">Landing Page</h4>
-                      <p class="text-muted"></p>
+                      <p class="text-muted">Landing Page</p>
                   </div>
               </div>
 
@@ -41,8 +89,7 @@
         
                   </a>
                   <div class="portfolio-caption text-white">
-                      <h4>Banking Website</h4>
-                      <p class="text-muted"></p>
+                      <p class="text-muted">Banking Website</p>
                   </div>
               </div>
 
@@ -57,8 +104,8 @@
         
                   </a>
                   <div class="portfolio-caption text-white ">
-                      <h4>Adventure Website</h4>
-                      <p class="text-muted"></p>
+                     
+                      <p class="text-muted">Adventure Website</p>
                   </div>
               </div>
 
@@ -73,8 +120,7 @@
         
                   </a>
                   <div class="portfolio-caption  text-white ">
-                      <h4>Blockchain</h4>
-                      <p class="text-muted"></p>
+                      <p class="text-muted">Blockchain Website</p>
                   </div>
               </div>
 
@@ -89,8 +135,7 @@
         
                   </a>
                   <div class="portfolio-caption  text-white  ">
-                      <h4> Dashboard</h4>
-                      <p class="text-muted"></p>
+                      <p class="text-muted">Dashboard</p>
                   </div>
               </div>
 
@@ -105,8 +150,7 @@
         
                   </a>
                   <div class="portfolio-caption text-white ">
-                      <h4>Blockchain Website</h4>
-                      <p class="text-muted"></p>
+                      <p class="text-muted">Blockchain Website</p>
                   </div>
               </div>
 
@@ -115,16 +159,19 @@
               :initial="{opacity: 0, y: 100}"
               :visibleOnce="{ opacity: 1, y: 0}"
               >
-                  <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://prateve.vercel.app/" target="_blank" >
+                  <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://prateve.vercel.app/
+                  " target="_blank" >
                       
                       <img class="img-fluid rounded p-3 " src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1668084464/Vite-App_rfdtfa.png" alt="">
         
                   </a>
                   <div class="portfolio-caption  text-white  ">
-                      <h4> Loan Website</h4>
-                      <p class="text-muted"></p>
+                   
+                      <p class="text-muted">Loan Website</p>
                   </div>
               </div>
+
+              
           </div>
         </div>
       </section>
@@ -138,43 +185,17 @@
   import { ref } from 'vue'
   import gsap from 'gsap'
   import FullPage from 'vue-fullpage.js'
+  import heed from '../assets/heed.png'
+  import discripto from '../assets/discripto.png'
 
   export default {
   
-        data: () => ({
-        portfolioJSON: [
-            {
-                img: 'src/assets/pexels-andy-vu-3244513.jpg',
-                caption: 'Explore',
-                title: 'Graphic Design'
-            },
-            {
-                img: 'src\assets\img1.png',
-                caption: 'Finish',
-                title: 'Identify'
-            },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Lines',
-                title: 'Branding'
-            },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Southwest',
-                title: 'Website Design'
-            },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Window',
-                title: 'Photography'
-            },
-            {
-                img: '/something/random/img.jpg',
-                caption: 'Coffee',
-                title: 'Drink a Lot!' 
+        data(){
+            return{
+                heed:heed,
+                discripto:discripto
             }
-        ]
-    })
+        }
 
     }
     
@@ -185,17 +206,7 @@
 import {onMounted} from 'vue'
  import {animate,spring} from 'motion'
  
-// onMounted(()=>{
-//     const animation = animate('.box',{scale : 1.1},
-//     {
-//         duration : 1,
-//         easing : 'ease-out',
-//         repeat : 1,
-//         direction : 'alternate',
-//     }
 
-//     )
-// })
 
 </script>
 

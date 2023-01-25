@@ -1,7 +1,7 @@
 <template>
   <full-page :options="options">
     <section  class="bg-black vh-80 " id="about">
-      <div class="container  bg-black">
+      <div class="container mb-5  bg-black">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase  text-white mt-5">About</h2>
@@ -14,14 +14,16 @@
           :initial="{opacity: 0, y: 100}"
           :visibleOnce="{ opacity: 1, y: 0}"
           >
-            <ul class="timeline">
+            <ul class="timeline p-0">
               <li>
                 
                 <div class="timeline-panel  text-white">
-                  <div class="timeline-body">
-                    <p class="">After graduating in 2018 with a Bachelor’s Degree (First Class Honours) in computer science , I spent the last five years working both as a freelance web developer and designer and as part of a team.I have worked on a multitude of web and print based projects for a range of clients providing Web Design (Photoshop, Illustrator) and Development ( HTML, CSS, LESS, JS, jQuery,Vue,Nuxt, Bootstrap, Responsive Layouts).
-                      
-                    I work to make a better web; one that is fast, easy to use, beautiful, accessible to all, and frustration-free. Regardless of your specific business requirements, in solving these challenges, you have a great chance of finding success online.I write standards based code that is semantic, accessible, search-engine friendly, easy to maintain, cross browser compatible, and performant.
+                  <div class="timeline-body container">
+                    <p class="">
+                      Experienced Vue.js developer with a strong background in web development and a passion for creating interactive, user-friendly web applications. Skilled in JavaScript, HTML, CSS, and Vue.js, as well as other web development technologies. Strong problem-solving skills and ability to work well in a team environment.I Developed and maintained a web application using Vue.js and other web technologies
+                      Collaborated with designers and developers to create an interactive and user-friendly application
+                      Implemented and optimized front-end performance and functionality
+                      Worked with the team to deliver projects on time and on budget 
                     </p>
                   </div>
                 </div>

@@ -27,7 +27,7 @@ import gsap from 'gsap'
 <template>
 
  
-    <div class="home  vh-100" id="home">
+    <div class="home vh-100" id="home">
       <full-page :options="options">
         <section class="hero">
           
@@ -39,7 +39,7 @@ import gsap from 'gsap'
             @enter="enter"
             :css="false"
           >
-          <div>
+          <div class="">
             
             <h2>Hey there, This is Deji Ajani</h2>
 
