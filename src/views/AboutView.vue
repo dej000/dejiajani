@@ -97,7 +97,7 @@
        </div>
 
         <div class="sd">
-          <img class="mb-2" src="../assets/nuxt-js-icon.svg" alt="">
+          <img style="width:48px; height:48px;" class="mb-2" src="../assets/nuxt-js-icon.svg" alt="">
           
         <h5 class="text-white">NUXT</h5>
         </div>
