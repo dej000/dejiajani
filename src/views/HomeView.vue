@@ -47,12 +47,13 @@ import gsap from 'gsap'
             <p class="text-white">I am passionate about building excellent software, world-class app and pixel perfect code.</p>
            
 
-            <button><a download  data-toggle="modal" href="https://res.cloudinary.com/di6dtlbpj/image/upload/v1674641172/C6EDF345-3414-4502-82BC-012B1D3B906D_yc5tvf.jpg"  target="_blank">Download Resume</a></button>
+            <button><a download  data-toggle="modal" href="https://res.cloudinary.com/di6dtlbpj/image/upload/v1681482440/cv_pic_lysdkw.png"  target="_blank">Download Resume</a></button>
           </div>
          
           </transition>
            
           </div>
+          
         
         </section>
         
