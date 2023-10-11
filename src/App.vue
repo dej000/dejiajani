@@ -7,7 +7,9 @@ import socialVue from './views/social.vue';
 import Footerview from './views/FooterView.vue';
 import WorksView from './views/WorksView.vue';
 import AboutView from './views/AboutView.vue';
-import FullPage from 'vue-fullpage.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS CSS
+
 
 onMounted (()=>{
   const animation = animate(
@@ -18,6 +20,9 @@ onMounted (()=>{
 
 
  export default{
+  mounted() {
+    AOS.init();
+  },
  
     components :{ navigationVue, socialVue, Footerview,WorksView,AboutView}
  }

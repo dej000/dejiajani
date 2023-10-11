@@ -4,7 +4,7 @@
     <div class="work bg-black " id="work">
       
      <section class="bg-black" id="portfolio">
-        <div class="container">
+        <div class="container"  data-aos="fade-up">
           <div class="row">
             <div class="col-lg-12 text-center">
               <h2 class="section-heading text-uppercase p-3 mb-2 text-white">Portfolio</h2>
@@ -12,6 +12,69 @@
             </div>
           </div>
           <div class="row">
+            <div class="col-md-6 col-sm-6 portfolio-item box"
+            v-motion
+            :initial="{opacity: 0, y: 100}"
+            :visibleOnce="{ opacity: 1, y: 0}"
+            >
+                <a class="portfolio-link image  hover-zoom" data-toggle="modal" href=" https://configure.atella.ca/#/
+                " target="_blank" >
+                    
+                    <img class="img-fluid rounded p-3 " src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1697033369/atella-2_5_dp1voz.png" alt="">
+      
+                </a>
+                <div class="portfolio-caption  text-white  ">
+                    <p class="text-muted">House sale Website</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 portfolio-item box"
+            v-motion
+            :initial="{opacity: 0, y: 100}"
+            :visibleOnce="{ opacity: 1, y: 0}"
+            >
+                <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://amex-ruddy.vercel.app/
+                " target="_blank" >
+                    
+                    <img class="img-fluid rounded p-3 " src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1697033174/Amex_xaof0z.png" alt="">
+      
+                </a>
+                <div class="portfolio-caption  text-white  ">
+                    <p class="text-muted">Healthcare Website</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 portfolio-item box"
+            v-motion
+            :initial="{opacity: 0, y: 100}"
+            :visibleOnce="{ opacity: 1, y: 0}"
+            >
+                <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://deamsoft.vercel.app/
+                " target="_blank" >
+                    
+                    <img class="img-fluid rounded p-3 " src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1697032984/Deamsoft_2_in678v.png" alt="">
+      
+                </a>
+                <div class="portfolio-caption  text-white  ">
+                    <p class="text-muted">Tech Startup</p>
+                </div>
+            </div>  
+
+            <div class="col-md-6 col-sm-6 portfolio-item box"
+            v-motion
+            :initial="{opacity: 0, y: 100}"
+            :visibleOnce="{ opacity: 1, y: 0}"
+            >
+                <a class="portfolio-link image  hover-zoom" data-toggle="modal" href="https://lulaa2-dej000.vercel.app/
+                " target="_blank" >
+                    
+                    <img class="img-fluid rounded p-3 " src="https://res.cloudinary.com/di6dtlbpj/image/upload/v1697032762/lulla_dhseth.png" alt="">
+      
+                </a>
+                <div class="portfolio-caption  text-white  ">
+                    <p class="text-muted">Women Fashion Website</p>
+                </div>
+            </div>
 
             <div class="col-md-6 col-sm-6 portfolio-item box"
             v-motion

@@ -41,7 +41,7 @@ import gsap from 'gsap'
           >
           <div class="">
             
-            <h2>Hey there, This is Deji Ajani</h2>
+            <h2 class="">Hey there, This is Deji Ajani</h2>
 
             <h3>FRONTEND DEVELOPER</h3>
             <p class="text-white">I am passionate about building excellent software, world-class app and pixel perfect code.</p>
